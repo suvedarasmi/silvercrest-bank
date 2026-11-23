@@ -1,0 +1,8 @@
+.live-bank-content { display:grid; gap:16px; padding-bottom:24px }
+.live-bank-content .page-head { margin-bottom: 2px }
+.live-transfer, .live-sign-in { width:min(100%,690px) }
+.live-bank-content .accounts:empty { display:none }
+.live-pending.MuiChip-root,.live-processing.MuiChip-root { background:#fff1d5;color:#844d13 }
+.live-rejected.MuiChip-root,.live-manual_review.MuiChip-root { background:#fae8ec;color:#94364d }
+.live-mode-actions { display:flex; align-items:center; gap:9px }
+.live-bank-layout .MuiAlert-message { overflow-wrap:anywhere }
